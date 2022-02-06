@@ -1,0 +1,36 @@
+.list {
+  display: flex;
+  margin: 1rem auto;
+  width: 60%;
+  height: 80px;
+  padding-left: 1rem;
+  border-radius: 10px;
+  color: purple;
+  border: 3px solid purple;
+}
+.headl {
+  float: left;
+  width: 80%;
+}
+.list h3 {
+  font-size: 1.7rem;
+  text-align: left;
+}
+.btn {
+  float: right;
+  width: 20%;
+}
+.list button {
+  width: 80%;
+  height: 50px;
+  margin-top: 1.2rem;
+  border: 3px solid purple;
+  color: purple;
+  border-radius: 10px;
+  background-color: white;
+}
+.list button:hover {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}

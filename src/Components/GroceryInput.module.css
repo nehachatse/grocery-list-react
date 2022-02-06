@@ -1,0 +1,33 @@
+.cont {
+  padding: 0.3rem;
+}
+
+.cont input {
+  height: 2rem;
+  width: 17rem;
+  border-radius: 10px;
+  padding-left: 1rem;
+  font-size: 1rem;
+  border: 3px solid orangered;
+  color: orangered;
+  margin-right: 1rem;
+}
+.cont input:focus {
+  transform: scale(1.09);
+}
+.cont button {
+  border-radius: 10px;
+  padding-left: 1rem;
+  font-size: 1rem;
+  border: 3px solid orangered;
+  margin-right: 1rem;
+  width: 8rem;
+  height: 2.5rem;
+  background-color: orangered;
+  color: white;
+}
+.cont button:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+}
